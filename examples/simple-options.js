@@ -12,6 +12,7 @@ async function main() {
         skipHtmlToText: false, // generate plaintext from HTML if needed
         skipTextToHtml: false, // generate HTML from plaintext if needed
         skipTextLinks: true, // do not linkify links in plaintext content
+        parseInlineAsAttachment: false, // parse inline attachments as regular attachments
         formatDateString: date => date.toUTCString() // format date in RFC822 embedded HTML head section
     });
 
