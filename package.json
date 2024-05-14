@@ -1,6 +1,6 @@
 {
     "name": "@redsift/mailparser",
-    "version": "3.7.9",
+    "version": "3.8.0",
     "description": "Parse e-mails",
     "main": "index.js",
     "types": "index.d.ts",
